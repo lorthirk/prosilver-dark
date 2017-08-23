@@ -825,23 +825,24 @@ ul.cplist {
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 .minitabs .tab > a {
-	background-color: #E1EBF2;
+	background-color: #262626;
+	color: #c8c8c8;
 }
 
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
-	background-color: #F9F9F9;
-	color: #333333;
+	background-color: #171717;
+	color: #d0d0d0;
 }
 
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-	border-color: #536482;
+	border-color: #e8e8e8;
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #D31141;
+	border-color: #f0f0f0;
 }
 
 /* UCP navigation menu
@@ -882,7 +883,7 @@ ul.cplist {
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
 	#navigation a, .rtl #navigation a {
-		background: #B2C2CF;
+		background: #171717;
 	}
 }
 
